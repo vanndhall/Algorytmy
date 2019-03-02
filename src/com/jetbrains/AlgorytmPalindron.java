@@ -16,13 +16,10 @@ public class AlgorytmPalindron {
         System.out.println("WydajniejszeOdwrocenie: "+WydajniejszeOdwrocenie(slowo) );
 
         if (AlgorytmPalindron(slowo)) {
-            System.out.println("The text is a palindrome!");
+            System.out.println("Słowo jest palindromem!");
         } else {
-            System.out.println("The text is not a palindrome!");
+            System.out.println("Słowo nie jest palindromem!");
         }
-
-
-
     }
     public static boolean AlgorytmPalindron(String word) {
         /*int i;

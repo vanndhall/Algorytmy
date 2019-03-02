@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3add36db-7ad7-4ce3-a02b-1f6e9a461e8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalindron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalindron.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,22 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmEuklidesa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="44" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="17" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmFibonacciego.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="49" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="15" selection-end-column="49" />
+              <caret line="15" column="49" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmDziesietnaNaBinarna.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/MyHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#480#481#0" expanded="true" />
@@ -65,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+            <state relative-caret-position="170">
+              <caret line="10" column="61" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalidron.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalindron.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1379#1380#0" expanded="true" />
@@ -88,10 +77,22 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/FizzBuzz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
+            <state relative-caret-position="120">
               <caret line="387" column="18" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
             </state>
           </provider>
@@ -106,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="43" />
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -152,6 +153,8 @@
         <option value="$PROJECT_DIR$/src/com/jetbrains/AlgorytmDziesietnaNaBinarna.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalidron.java" />
+        <option value="$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalindron.java" />
+        <option value="$PROJECT_DIR$/src/com/jetbrains/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -193,7 +196,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551531126724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551535044068" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -208,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlgorytmPalindron">
+  <component name="RunManager" selected="Application.FizzBuzz">
     <configuration name="AlgorytmFibonacciego" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jetbrains.AlgorytmFibonacciego" />
       <module name="Algorytmy" />
@@ -261,8 +264,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jetbrains.Main" />
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jetbrains.FizzBuzz" />
       <module name="Algorytmy" />
       <extension name="coverage">
         <pattern>
@@ -276,18 +279,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AlgorytmFibonacciego" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.AlgorytmLiczbDoskonalych" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.AlgorytmPalindron" />
+      <item itemvalue="Application.FizzBuzz" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.AlgorytmPalindron" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.AlgorytmFibonacciego" />
         <item itemvalue="Application.AlgorytmLiczbDoskonalych" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551528400781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Algorytm Palindrom">
+      <created>1551531231889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551531231889</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,7 +373,8 @@
     <MESSAGE value="AlgorytmLiczbDoskonalych" />
     <MESSAGE value="AlgorytmDziesietnaNaBinarnaF" />
     <MESSAGE value="Algorytm sortowania Bąbelkowego" />
-    <option name="LAST_COMMIT_MESSAGE" value="Algorytm sortowania Bąbelkowego" />
+    <MESSAGE value="Algorytm Palindrom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorytm Palindrom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -404,7 +415,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/jetbrains/MyHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#480#481#0" expanded="true" />
@@ -428,19 +439,21 @@
     <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmDziesietnaNaBinarna.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/BubbleSort.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalindron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -448,14 +461,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="43" />
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmFibonacciego.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="15" selection-end-column="49" />
+          <caret line="15" column="49" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -464,19 +477,27 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/io/BufferedReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
+        <state relative-caret-position="120">
           <caret line="387" column="18" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalidron.java">
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
