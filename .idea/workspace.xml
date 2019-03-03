@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3add36db-7ad7-4ce3-a02b-1f6e9a461e8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jetbrains/AlgorytmLiczbyPierwsze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jetbrains/SredniaArytmetyczna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/jetbrains/Delta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jetbrains/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jetbrains/FizzBuzz.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,34 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmFibonacciego.java">
+        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmEuklidesa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="49" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmDziesietnaNaBinarna.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="61" />
+            <state relative-caret-position="238">
+              <caret line="17" column="44" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="17" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +73,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmLiczbyPierwsze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="289">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Delta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,6 +151,9 @@
         <option value="$PROJECT_DIR$/src/com/jetbrains/SredniaArytmetyczna.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/Main.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/AlgorytmLiczbyPierwsze.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Delta.java" />
+        <option value="$PROJECT_DIR$/src/com/jetbrains/Delta.java" />
       </list>
     </option>
   </component>
@@ -206,7 +195,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551539023839" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551603254207" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -221,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AlgorytmLiczbyPierwsze">
+  <component name="RunManager" selected="Application.Delta">
     <configuration name="AlgorytmLiczbyPierwsze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jetbrains.AlgorytmLiczbyPierwsze" />
       <module name="Algorytmy" />
@@ -248,15 +237,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jetbrains.BubbleSort" />
+    <configuration name="Delta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jetbrains.Delta" />
       <module name="Algorytmy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jetbrains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -288,19 +271,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.AlgorytmPalindron" />
       <item itemvalue="Application.FizzBuzz" />
       <item itemvalue="Application.SredniaArytmetyczna" />
       <item itemvalue="Application.AlgorytmLiczbyPierwsze" />
+      <item itemvalue="Application.Delta" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Delta" />
         <item itemvalue="Application.AlgorytmLiczbyPierwsze" />
         <item itemvalue="Application.SredniaArytmetyczna" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.AlgorytmPalindron" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1551535079354</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Algorytm Liczba Pierwsza">
+      <created>1551539008657</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551539008657</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Algorytm Liczba Pierwsza">
+      <created>1551539051126</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1551539051126</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,7 +360,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20196672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -371,7 +368,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,7 +389,8 @@
     <MESSAGE value="Algorytm sortowania Bąbelkowego" />
     <MESSAGE value="Algorytm Palindrom" />
     <MESSAGE value="FizzBuzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="FizzBuzz" />
+    <MESSAGE value="Algorytm Liczba Pierwsza" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorytm Liczba Pierwsza" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,16 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmEuklidesa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="17" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -530,10 +518,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmEuklidesa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="44" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Algorytm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jetbrains/AlgorytmLiczbyPierwsze.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jetbrains/Delta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
