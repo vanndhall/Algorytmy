@@ -2,6 +2,7 @@ package dao;
 
 import models.Film;
 import models.Patient;
+import models.OnlineManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +37,12 @@ public class DaoProvider implements DaoInterface  {
 
     @Override
     public List<Film> getFilmList() {
-        return null;
+        List<Film> result = new ArrayList<>();
+        try {
+            result = OnlineManager.getMovieList();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }
