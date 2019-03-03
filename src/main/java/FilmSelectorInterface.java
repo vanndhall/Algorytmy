@@ -9,4 +9,5 @@ public interface FilmSelectorInterface {
     List<Film> getFilmListByCountry(String countryName);
     List<Film> getFilmListByNameSort();
     List<Film> getFilmListByNameStream();
+    List<Film> getCustomFilter();
 }

@@ -5,6 +5,7 @@ import java.util.Comparator;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class FilmSelector implements FilmSelectorInterface {
 
@@ -37,12 +38,25 @@ public class FilmSelector implements FilmSelectorInterface {
     }
 
     @Override
-    public List<Film> getFilmListByYear() {
+    public List<Film> getCustomFilter() {
         return null;
     }
 
     @Override
+    public List<Film> getFilmListByYear() {
+        List<Film> result = this.films
+                .stream()
+                .sorted((p1, p2) -> p1.getRok().compareTo(p2.getRok()))
+                .collect(Collectors.toList());
+        return result;
+    }
+
+    @Override
     public List<Film> getFilmListByCountry(String countryName) {
-        return null;
+        List<Film> result = this.films
+                .stream()
+                .filter(film -> film.getKraj().equals(countryName))
+                .collect(Collectors.toList());
+        return result;
     }
 }

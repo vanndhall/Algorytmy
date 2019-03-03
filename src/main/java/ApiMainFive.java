@@ -16,5 +16,10 @@ public class ApiMainFive {
 
         System.out.println("\nLista filmów po sortowaniu tytułów filmów: \n");
         System.out.println(Arrays.asList(filmSelector.getFilmListByNameSort()));
+
+
+        System.out.println("######################################");
+        System.out.println(Arrays.asList(filmSelector.getAllFilms()));
+        System.out.println(Arrays.asList(filmSelector.getFilmListByCountry("Hiszpania")));
     }
 }

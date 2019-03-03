@@ -31,4 +31,11 @@ public class PatientSelector implements PatientSelectorInterface {
 
         return patientList;
     }
+    @Override
+    public Patient[] getCustomSort() {
+        Arrays.sort(patientList, Comparator.comparing(Patient::getName)
+                .thenComparing(Patient::getSurname)
+                .thenComparing(Patient::getAge));
+        return patientList;
+    }
 }
