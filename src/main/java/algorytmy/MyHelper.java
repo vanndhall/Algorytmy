@@ -1,4 +1,4 @@
-package com.jetbrains;
+package algorytmy;
 
 import java.util.Scanner;
 

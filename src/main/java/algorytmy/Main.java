@@ -1,4 +1,4 @@
-package com.jetbrains;
+package algorytmy;
 
 public class Main {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.jetbrains;
+package algorytmy;
 
 import java.io.BufferedReader;
 import java.io.IOException;

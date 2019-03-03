@@ -1,3 +1,6 @@
+package RunApiMovies;
+
+import RunApiMovies.PatientSelectorInterface;
 import dao.DaoProvider;
 import models.Patient;
 

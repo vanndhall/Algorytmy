@@ -1,3 +1,5 @@
+package RunApiMovies;
+
 import models.Patient;
 
 public interface PatientSelectorInterface {

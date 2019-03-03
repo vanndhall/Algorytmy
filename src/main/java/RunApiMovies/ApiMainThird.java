@@ -1,3 +1,5 @@
+package RunApiMovies;
+
 import dao.DaoProvider;
 import models.Patient;
 
@@ -14,7 +16,7 @@ public class ApiMainThird {
 
     public static void main(String[] args) {
 
-//        PatientSelector patientSelector = new PatientSelector();
+//        RunApiMovies.PatientSelector patientSelector = new RunApiMovies.PatientSelector();
 //
 //        System.out.println(Arrays.asList(patientSelector.getPatientsByName()));
 //        System.out.println(Arrays.asList(patientSelector.getPatientsByAge()));
