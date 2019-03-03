@@ -8,4 +8,6 @@ import java.util.List;
 public interface DaoInterface {
     List<Patient> getPatientList();
     List<Film> getFilmList();
+    Patient[] getPatientArray();
+    String getData();
 }

@@ -1,5 +1,6 @@
 package dao;
 
+import models.Film;
 import models.Patient;
 
 import java.util.ArrayList;
@@ -19,11 +20,22 @@ public class DaoProvider implements DaoInterface  {
 
         return lista;
     }
-
-
+    @Override
+    public Patient[] getPatientArray() {
+        List<Patient> tempList = generatePatientList();
+        Patient[] array = new Patient[tempList.size()];
+        tempList.toArray(array);
+        return array;
+        // return  generatePatientList().toArray(new Patient[generatePatientList().size()]);
+    }
 
     @Override
     public List<Patient> getPatientList() {
         return generatePatientList();
+    }
+
+    @Override
+    public List<Film> getFilmList() {
+        return null;
     }
 }

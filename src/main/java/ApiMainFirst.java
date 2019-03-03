@@ -5,12 +5,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Main {
+public class ApiMainFirst {
     public static void main(String[] args){
         DaoProvider daoProvider = new DaoProvider();
         List<Patient> mojaLista = daoProvider.getPatientList();
 
-  //      System.out.println(Arrays.asList(mojaLista));
+        //System.out.println(Arrays.asList(mojaLista));
        // Arrays.sort(mojaLista.toArray());
 
         List<Patient> wiek = mojaLista
