@@ -11,9 +11,9 @@ public class AlgorytmPalindron {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Program algorytmu Polidron:");
         System.out.println("Wpisz słowo: ");
-        slowo =br.readLine();
-        System.out.println("Odwrocenie ze Stosem: "+OdwrocenieZeStosem(slowo));
-        System.out.println("WydajniejszeOdwrocenie: "+WydajniejszeOdwrocenie(slowo) );
+        slowo = br.readLine();
+        System.out.println("Odwrocenie ze Stosem: " + OdwrocenieZeStosem(slowo));
+        System.out.println("WydajniejszeOdwrocenie: " + WydajniejszeOdwrocenie(slowo));
 
         if (AlgorytmPalindron(slowo)) {
             System.out.println("Słowo jest palindromem!");
@@ -21,6 +21,7 @@ public class AlgorytmPalindron {
             System.out.println("Słowo nie jest palindromem!");
         }
     }
+
     public static boolean AlgorytmPalindron(String word) {
         /*int i;
         StringBuilder dest = new StringBuilder(word.length());
@@ -29,34 +30,29 @@ public class AlgorytmPalindron {
         }
         String palindrm = dest.toString();*/
 
-        String palindrom =word;
-        System.out.println (palindrom);
-        System.out.println(OdwrocenieZeStosem(word));
-        System.out.println(word);
-        System.out.println(palindrom==OdwrocenieZeStosem(word));
-        if ( palindrom == OdwrocenieZeStosem(word)) {
+        String palindrom = word;
+        if (palindrom.equals(OdwrocenieZeStosem(word))) {
             return true;
-        }
-        else return false;
+        } else return false;
     }
 
-    public static String OdwrocenieZeStosem(String word){
+    public static String OdwrocenieZeStosem(String word) {
 
         Stack<Character> wordStack = new Stack<>();
         String finalWord = "";
 
-        for(Character item : word .toCharArray()){
+        for (Character item : word.toCharArray()) {
             wordStack.push(item);
         }
 
-        for(int i = 0; i < word.length(); i++){
+        for (int i = 0; i < word.length(); i++) {
             finalWord += wordStack.pop();
         }
 
-       return finalWord;
+        return finalWord;
     }
 
-    public static String WydajniejszeOdwrocenie(String word){
+    public static String WydajniejszeOdwrocenie(String word) {
         return new StringBuilder(word).reverse().toString();
     }
 }
