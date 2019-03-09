@@ -10,5 +10,10 @@ public class App {
        Sorter sorter = new Sorter(data, new BubbleSorting());
        sorter.execute();
        data.print();
+        System.out.println("Po sortowaniu przez wybieranie: ");
+        Sorter sorter2 = new Sorter(data,new SelectionSorting());
+        sorter2.execute();
+        data.print();
+
     }
 }

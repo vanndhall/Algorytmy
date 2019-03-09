@@ -6,14 +6,14 @@ public class Sorter {
     private SortingStrategy strategy;
 
     //metoda podstawienia liskova
-    public Sorter(DataSet data, BubbleSorting bubbleSorting) {
+    public Sorter(DataSet data, SortingStrategy strategy) {
 
         this.data = data;
-        this.bubbleSorting = bubbleSorting;
+        this.strategy = strategy;
     }
 
     public void execute(){
-        bubbleSorting.sort(data);
+        strategy.sort(data);
     }
 
 }

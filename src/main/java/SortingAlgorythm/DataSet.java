@@ -28,9 +28,9 @@ public class DataSet {
     }
 
     public void swap(int x,int y){
-    int tmp = data[x];
-    data[x] = data[y];
-    data[y] = tmp;
+    int tmp = data[y];
+    data[y] = data[x];
+    data[x] = tmp;
     }
 
     public void print(){
