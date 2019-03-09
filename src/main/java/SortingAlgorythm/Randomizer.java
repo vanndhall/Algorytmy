@@ -1,14 +1,27 @@
 package SortingAlgorythm;
 
+
+import java.util.Random;
+
 public class Randomizer {
 
-    public  DataSet generate(){
+    Random random = new Random();
+    DataSet data = new DataSet(10);
 
-        return null;
+
+    public DataSet generate() {
+        return generate(10);
     }
-    public DataSet generate(int x){
 
-        return null;
+    public DataSet generate(int x) {
+
+        for (int i = 0; i < x; i++) {
+            int los = random.nextInt(10);
+
+            data.set(i, los);
+        }
+
+        return data;
     }
 
 

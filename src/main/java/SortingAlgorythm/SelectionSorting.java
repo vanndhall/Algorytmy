@@ -1,6 +1,6 @@
 package SortingAlgorythm;
 
-public class SelectionSorting implements ISortingStrategy {
+public class SelectionSorting implements SortingStrategy {
 
     public DataSet sort(DataSet dataset){
 

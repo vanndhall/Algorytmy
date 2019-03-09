@@ -1,5 +1,5 @@
 package SortingAlgorythm;
 
-public interface ISortingStrategy{
+public interface SortingStrategy {
     public DataSet  sort(DataSet dataset);
 }
