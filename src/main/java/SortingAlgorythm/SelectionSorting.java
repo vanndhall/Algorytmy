@@ -23,4 +23,8 @@ public class SelectionSorting implements SortingStrategy {
         }
         return dataset;
     }
+
+
+    //Alternative___________________________
+
 }

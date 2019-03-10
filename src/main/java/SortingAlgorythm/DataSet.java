@@ -5,6 +5,9 @@ import java.util.Arrays;
 public class DataSet {
     private int[] data;
 
+    public DataSet() {
+    }
+
     public DataSet(int n) {
         this.data = new int[n];
     }
