@@ -39,19 +39,23 @@ this.value = newValue;
             }
         }
     }
-        public  boolean find(int value){
-            boolean resoult;
-            if(this.value == value){
-                resoult = true;
-            }else{
-                if(value>this.value){
-                    if()
-                    return right.find(value);
-                }else{
-                    return left.find(value);
-                }
-            }
-        }
+
+    public int getValue() {
+        return value;
+    }
+//        public  boolean find(int value){
+//            boolean resoult;
+//            if(this.value == value){
+//                resoult = true;
+//            }else{
+//                if(value>this.value){
+//                    if()
+//                    return right.find(value);
+//                }else{
+//                    return left.find(value);
+//                }
+//            }
+//        }
 
 //public boolean check(int value){
 //            boolean found;
@@ -74,4 +78,3 @@ this.value = newValue;
 
 
 
-}
