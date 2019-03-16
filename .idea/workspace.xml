@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3add36db-7ad7-4ce3-a02b-1f6e9a461e8f" name="Default Changelist" comment="">
+    <list default="true" id="3add36db-7ad7-4ce3-a02b-1f6e9a461e8f" name="Default Changelist" comment="BinarySearchTree - dokonczyc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SortingAlgorythm/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/MainTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/MainTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BinarySearchTree/Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,19 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SortingAlgorythm/Randomizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SortingAlgorythm/Heap.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,11 +90,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearchTree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="170">
+              <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SortingAlgorythm/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalidron.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/AlgorytmPalindron.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/com/jetbrains/SredniaArytmetyczna.java" />
@@ -205,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/main/java/BinarySearchTree/MainTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinarySearchTree/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinarySearchTree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SortingAlgorythm/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -258,6 +256,14 @@
               <item name="Algorytmy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorytmy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SortingAlgorythm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorytmy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorytmy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -287,7 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552744322761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552748201131" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -589,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552740205152</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="BinarySearchTree - dokonczyc">
+      <created>1552744354343</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1552744354343</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -610,7 +623,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -620,8 +633,8 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.28330523" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38952535" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.2831424" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3878887" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
@@ -679,7 +692,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AlgorytmLiczbDoskonalych" />
     <MESSAGE value="AlgorytmDziesietnaNaBinarnaF" />
     <MESSAGE value="Algorytm sortowania Bąbelkowego" />
     <MESSAGE value="Algorytm Palindrom" />
@@ -704,7 +716,8 @@
     <MESSAGE value="BinarySearchTree - Node class" />
     <MESSAGE value="BinarySearchTree - Tree class" />
     <MESSAGE value="BinarySearchTree - StackNode class" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchTree - StackNode class" />
+    <MESSAGE value="BinarySearchTree - dokonczyc" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchTree - dokonczyc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -746,16 +759,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/algorytmy/SredniaArytmetyczna.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorytmy.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1237,8 +1240,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinarySearchTree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="170">
+          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortingAlgorythm/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
