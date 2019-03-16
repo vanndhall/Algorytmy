@@ -12,14 +12,26 @@ public class App {
 //        Sorter sorter2 = new Sorter(tab,new SelectionSorting());
 //        sorter2.execute();
 
-        int[] tab ={4,1,3,2,16,9,10,14,8,7};
-        int n = tab.length;
-        Heap heap = new Heap();
-        System.out.println("Przed kopcem: ");
-        heap.print();
-        heap.reverse();
-        System.out.println("Po kopcowaniu: ");
-        heap.print();
+//        int[] tab ={4,1,3,2,16,9,10,14,8,7};
+//        int n = tab.length;
+//        Heap heap = new Heap();
+//        HeapSort sortHeap = new HeapSort();
+//        System.out.println("Przed kopcem: ");
+//        sortHeap.sort();
+//        heap.reverse();
+//        System.out.println("Po kopcowaniu: ");
+//        heap.print();
+        Randomizer randomer = new Randomizer();
+        DataSet tab = randomer.generate(15);
+        System.out.println("Przed sortowaniem: "+tab.toString());
+        System.out.println("Sortowanie przez kopcowanie: ");
+        Sorter sorter = new Sorter(tab, new HeapSort());
+       sorter.execute();
+       tab.print();
+
+
+
+
         //heap.parent(tab,n);
 
     }

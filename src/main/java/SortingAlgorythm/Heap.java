@@ -2,14 +2,14 @@ package SortingAlgorythm;
 
 import java.util.Arrays;
 
-public class Heap {
+public class Heap extends DataSet{
     //pola________________________________
-    int[] tab = {4,1,3,2,16,9,10,14,8,7};
-    int heapSize = tab.length;
+    int heapSize ;
 
     //Konstruktor_________________________
-    public Heap(int[] tab) {
-        this.tab = tab;
+    public Heap(DataSet proxy) {
+        super(proxy);
+        heapSize =getSize();
     }
 
     public Heap() {
@@ -30,17 +30,17 @@ public class Heap {
     //    public void left()
         return index;
     }
-    public void swap(int x,int y){
-        int tmp = tab[y];
-        tab[y] = tab[x];
-        tab[x] = tmp;
-    }
+
     public int parent2(int index){
         return(int) (Math.ceil((double)index-1)/2);
     }
     public void reverse(){
 
         for(int i = heapSize-1; i>=0;i--){
+            swap(0,heapSize-1);
+            //zamien z miejscami pierwsze z ostatnim
+            heapSize=heapSize-1;
+            //zmniejsz kpiec o 1
             heapify(i);
         }
         //for int i =1
@@ -90,19 +90,16 @@ public void heapify( int i){
 //         }
 //         return largest;
 //    }
-    public void print(){
-        System.out.println(Arrays.toString(tab));
-    }
 private int getLargestIndex(int i, int left, int right) {
     int largest;
 
-    if (left < heapSize && tab[left] > tab[i]) {
+    if (left < heapSize && get(left) > get(i)) {
         largest = left;
     } else {
         largest = i;
     }
 
-    if (right < heapSize && tab[right] > tab[largest]) {
+    if (right < heapSize && get(right) > get(largest)) {
         largest = right;
     }
 

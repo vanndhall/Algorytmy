@@ -3,7 +3,7 @@ package SortingAlgorythm;
 import java.util.Arrays;
 
 public class DataSet {
-    private int[] data;
+    private int[] data = {4,8,10,47,9,3,2,16};
 
     public DataSet() {
     }
