@@ -7,6 +7,10 @@ public class Node {
     //Referencja klasy do samej siebie
     Node left,right;
 
+    public Node(int newValue) {
+
+    }
+
     //Konstruktor
 //    Node(int value){
 //        this.value = value;
@@ -16,7 +20,7 @@ public class Node {
     public void add(int newValue){
         if(newValue >value) {
             if(right == null){
-                Node newNode = new Node();
+                Node newNode = new Node(newValue);
                 newNode.value = newValue;
                 right = newNode;
             }else{
@@ -24,7 +28,7 @@ public class Node {
             }
         }else {
             if (left == null) {
-                Node newNode = new Node();
+                Node newNode = new Node(newValue);
                 newNode.value = newValue;
                 right = newNode;
             } else {
