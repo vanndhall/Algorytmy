@@ -10,5 +10,18 @@ public class Tree {
         }else{
             root.add(value);
         }
+
+//        public Node search(int key){
+//            Node actual = root;
+//            while(actual !=null && actual.value !=key ){
+//                actual = (actual.value>key) ? actual.left : actual.right;
+//            }
+//            if(actual == null){
+//                System.out.println(" Nie znaleziono wartości!");
+//            }
+//            return actual;
+//        }
+
+
     }
 }
