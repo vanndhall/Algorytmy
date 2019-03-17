@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3add36db-7ad7-4ce3-a02b-1f6e9a461e8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PanTadeusz/PanTadeusz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,10 +88,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PanTadeusz/PanTadeusz.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,10 +100,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PanTadeusz/PanTadeusz.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="e#0#578#0" expanded="true" />
               </folding>
@@ -203,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/main/java/BinarySearchTree/MainTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaPoz15/Test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/JavaPoz15/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.java" />
         <option value="$PROJECT_DIR$/src/PanTadeusz/PanTadeusz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.java" />
       </list>
     </option>
   </component>
@@ -263,6 +260,8 @@
               <item name="Algorytmy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorytmy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="PanTadeusz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -278,7 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552830198243" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552830934060" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -290,6 +289,7 @@
       <recent name="SortingAlgorythm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\VanndDhall\IdeaProjects\Algorytmy\src\main\java" />
       <recent name="C:\Users\VanndDhall\IdeaProjects\Algorytmy\src" />
       <recent name="C:\Users\VanndDhall\IdeaProjects\Algorytmy\lib" />
     </key>
@@ -602,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552825864038</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Klasa PanTadeusz - wypisuje same słowa">
+      <created>1552830247813</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1552830247813</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -623,7 +630,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -633,7 +640,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.2831424" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.2831424" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3878887" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -692,7 +699,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Algorytm Palindrom" />
     <MESSAGE value="FizzBuzz" />
     <MESSAGE value="Algorytm Liczba Pierwsza" />
     <MESSAGE value="Algorytm Liczba Zerowych" />
@@ -717,7 +723,8 @@
     <MESSAGE value="BinarySearchTree - dokonczyc" />
     <MESSAGE value="klasa QuickSort  dodana do SortingAlgorythm package" />
     <MESSAGE value="JavaPoz15 - uzycie javac/ javap" />
-    <option name="LAST_COMMIT_MESSAGE" value="JavaPoz15 - uzycie javac/ javap" />
+    <MESSAGE value="Klasa PanTadeusz - wypisuje same słowa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klasa PanTadeusz - wypisuje same słowa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1244,20 +1251,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PanTadeusz/PanTadeusz.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
             <element signature="e#0#578#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PanTadeusz/PanTadeusz.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
