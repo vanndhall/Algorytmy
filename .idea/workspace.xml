@@ -90,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+            <state relative-caret-position="410">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,7 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552830934060" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552831201042" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -609,7 +609,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552830247813</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Klasa PanTadeusz - liczy słowa w wierszu">
+      <created>1552830976215</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1552830976215</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -699,7 +706,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FizzBuzz" />
     <MESSAGE value="Algorytm Liczba Pierwsza" />
     <MESSAGE value="Algorytm Liczba Zerowych" />
     <MESSAGE value="Sortowanie za pomocą Strumieni" />
@@ -724,7 +730,8 @@
     <MESSAGE value="klasa QuickSort  dodana do SortingAlgorythm package" />
     <MESSAGE value="JavaPoz15 - uzycie javac/ javap" />
     <MESSAGE value="Klasa PanTadeusz - wypisuje same słowa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Klasa PanTadeusz - wypisuje same słowa" />
+    <MESSAGE value="Klasa PanTadeusz - liczy słowa w wierszu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klasa PanTadeusz - liczy słowa w wierszu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1263,8 +1270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PanTadeusz/PanTadeusz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+        <state relative-caret-position="410">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

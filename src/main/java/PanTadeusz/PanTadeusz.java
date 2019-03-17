@@ -5,7 +5,9 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class PanTadeusz {
@@ -25,9 +27,16 @@ public class PanTadeusz {
             result.put(word, number);
 
         }
-        for(Map.Entry<String, Integer> entry : result.entrySet()){
-            System.out.println(entry.getKey()+" : "+ entry.getValue());
-        }
+
+        final List<Map.Entry<String, Integer>> list = new ArrayList<>(result.entrySet());
+        list.sort(Map.Entry.comparingByValue());
         System.out.println("5 most common words in Pan Tadeusz");
+        for(int i=0;i<5;i++){
+            System.out.println(list.get(i));
+        }
+//        for(Map.Entry<String, Integer> entry : result.entrySet()){
+//            System.out.println(entry.getKey()+" : "+ entry.getValue());
+        }
+
     }
-}
+
