@@ -14,6 +14,6 @@ public class MainTree {
         tree.add(12);
         System.out.println("koniec");
 
-        tree.dfs();
+//        tree.dfs();
     }
 }
